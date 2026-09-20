@@ -1,0 +1,25 @@
+.dnt1{
+    background-image: linear-gradient(to top,white,rgba(0, 0, 0, 0.096));
+}
+
+.dnt2{
+    background-image: linear-gradient(to top,black,white);
+}
+
+.fnt1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.bk1{
+    width:900px;
+
+}
+
+@media(max-width:750px){
+    .bk1{
+    width:400px;
+
+}
+}
+
