@@ -23,3 +23,8 @@
 }
 }
 
+@media(max-width:430px){
+    html,css{
+        overflow-x: hidden;
+    }
+}

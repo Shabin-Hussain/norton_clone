@@ -76,8 +76,68 @@ function Landingpage() {
           <div className="col-md-1"></div>
         </div>
 
-        <div className="row" style={{marginTop:'100px'}}>
+        <div className="row" style={{marginTop:'180px'}}>
+            <div className="row border-bottom w-100">
+              <div className="col-md-3">
+                <div className="row">
+                  <div className="col-md-6 ">
+                    <img src="public/home-360-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
+                  </div>
+                  <div className="col-md-6">
+                    <h5 className='mt-md-3'>Manx R</h5>
+                    <p className='text-secondary mt-md-2'>coming soon</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                 <div className="row">
+                  <div className="col-md-6 ">
+                    <img src="/pdp-hero-images-without-background-b120-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
+                  </div>
+                  <div className="col-md-6">
+                    <h5 className='mt-md-3'>Manx</h5>
+                    <p className='text-secondary mt-md-2'>coming soon</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                 <div className="row">
+                  <div className="col-md-6 ">
+                    <img src="public/atlas-360-view-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
+                  </div>
+                  <div className="col-md-6">
+                    <h5 className='mt-md-3'>Atlas</h5>
+                    <p className='text-secondary mt-md-2'>coming soon</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-3">
+                 <div className="row">
+                  <div className="col-md-6 ">
+                    <img src="public/pdp-hero-images-without-background-j106-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
+                  </div>
+                  <div className="col-md-6">
+                    <h5 className='mt-md-3'>Atlas GT</h5>
+                    <p className='text-secondary mt-md-2'>coming soon</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div className="row">
+              <div className="col-md-4">
+                <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>1200</h1>
+                <p className='text-center text-secondary' >Engine • cc</p>
+
+                 <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>206</h1>
+                <p className='text-center text-secondary' >Power • hp</p>
+
+                 <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>130</h1>
+                <p className='text-center text-secondary' >Torque • Nm</p>
+              </div>
+              <div className="col-md-6"></div>
+              <div className="col-md-4"></div>
+            </div>
         </div>
       </div>  
 
