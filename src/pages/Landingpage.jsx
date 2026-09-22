@@ -125,7 +125,7 @@ function Landingpage() {
             </div>
 
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>1200</h1>
                 <p className='text-center text-secondary' >Engine • cc</p>
 
@@ -136,7 +136,72 @@ function Landingpage() {
                 <p className='text-center text-secondary' >Torque • Nm</p>
               </div>
               <div className="col-md-6"></div>
-              <div className="col-md-4"></div>
+              <div className="col-md-3">
+                <div className=" mt-5 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                    <div style={{height:'22px',width:'22px',backgroundColor:' rgb(167, 169, 172)'}}>
+                    </div>
+                    <h6 className='ms-2'><b>Trophy Silver</b></h6>
+                 
+                </div>
+
+                <div className=" mt-2 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                    <div style={{height:'22px',width:'22px',backgroundColor:' rgb(40,39,39)'}}>
+                       
+                    </div>
+                 
+                
+                    <h6 className='ms-3'><b>Matrix Black</b></h6>
+                 
+                </div>
+
+                <div className=" mt-2 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                    <div style={{height:'22px',width:'22px',backgroundColor:' rgb(70,71,71)'}}>
+                       
+                    </div>
+                 
+                
+                    <h6 className='ms-1'><b>Celestial Grey</b></h6>
+                 
+                </div>
+
+                <div className=" mt-2 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                    <div style={{height:'22px',width:'22px',backgroundColor:' rgb(89,155,167)'}}>
+                       
+                    </div>
+                 
+                
+                    <h6 className='ms-4'><b>AquaGreen</b></h6>
+                 
+                </div>
+
+                <div className=" mt-2 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                   <div style={{height:'22px',width:'22px',backgroundColor:' #202124'}}>
+                       
+                    </div> 
+
+            {/*         <div class="hidden md:flex w-[24px] h-[24px]" style="background: radial-gradient(circle, transparent, rgba(33, 33, 33, 0.63)), repeating-linear-gradient(135deg, rgba(33, 33, 33, 0.63) 0px, rgba(33, 33, 33, 0.63) 2px, transparent 2px, transparent 10px, rgba(33, 33, 33, 0.63) 10px, rgba(33, 33, 33, 0.63) 11px, transparent 11px, transparent 21px), repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), linear-gradient(90deg, rgba(33, 33, 33, 0.63), rgba(33, 33, 33, 0.63)); border: 1px solid rgb(230, 232, 234);"></div> */}
+                 
+                
+                    <h6 className='ms-3'><b>Carbon Dark</b></h6>
+                 
+                </div>
+
+                <div className=" mt-2 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+                 
+                    <div style={{height:'22px',width:'22px',backgroundColor:' rgb(138,162,193)'}}>
+                       
+                    </div>
+                 
+                
+                    <h6 className='ms-3'><b>Glacier Blue</b></h6>
+                 
+                </div>
+              </div>
             </div>
         </div>
       </div>  
