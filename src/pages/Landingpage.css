@@ -20,8 +20,20 @@
     .bk1{
     width:400px;
 
+    }
+
+    .cname{
+        display: none;
+    }
+
+    .cname1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
-}
+
 
 @media(max-width:430px){
     html,css{

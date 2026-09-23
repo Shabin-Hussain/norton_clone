@@ -1,13 +1,14 @@
  import React from 'react'
 import Header from '../components/Header'
 import './Landingpage.css'
+import Three60 from '../components/Three60'
 
 
 
 function Landingpage() {
   return (
     <>
-  
+     
    
        <div className='w-100' style={{height:'100vh',position:'relative'}}>
          
@@ -31,7 +32,7 @@ function Landingpage() {
         
       </div>  
 
-       <div className='w-100 bg-white container-fluid' style={{height:'300vh',position:'relative',zIndex:4}}>
+       <div className='w-100 bg-white container-fluid' style={{height:'350vh',position:'relative',zIndex:4}}>
         <div className="row">
           <div className="col-md-6">
             <div className="row">
@@ -78,7 +79,7 @@ function Landingpage() {
 
         <div className="row" style={{marginTop:'180px'}}>
             <div className="row border-bottom w-100">
-              <div className="col-md-3">
+              <div className="col-3">
                 <div className="row">
                   <div className="col-md-6 ">
                     <img src="public/home-360-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
@@ -89,7 +90,7 @@ function Landingpage() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-3">
                  <div className="row">
                   <div className="col-md-6 ">
                     <img src="/pdp-hero-images-without-background-b120-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
@@ -100,7 +101,7 @@ function Landingpage() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-3">
                  <div className="row">
                   <div className="col-md-6 ">
                     <img src="public/atlas-360-view-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
@@ -111,7 +112,7 @@ function Landingpage() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-3">
                  <div className="row">
                   <div className="col-md-6 ">
                     <img src="public/pdp-hero-images-without-background-j106-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5'/>
@@ -125,7 +126,7 @@ function Landingpage() {
             </div>
 
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-3 ">
                 <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>1200</h1>
                 <p className='text-center text-secondary' >Engine • cc</p>
 
@@ -135,13 +136,15 @@ function Landingpage() {
                  <h1 className='text-center mt-4' style={{fontSize:'60px',fontWeight:'bold'}}>130</h1>
                 <p className='text-center text-secondary' >Torque • Nm</p>
               </div>
-              <div className="col-md-6"></div>
-              <div className="col-md-3">
-                <div className=" mt-5 border d-inline-flex align-items-center" style={{padding:'10px 5px'}}>
+              <div className="col-md-6 ">
+               <div /* className='mb-5' */ style={{ marginTop: '-60px' }}> <Three60/></div>
+              </div>
+              <div className="col-md-3 cname1">
+                <div className=" mt-2 mt-md-5 border d-inline-flex align-items-center cname2" style={{padding:'10px 5px'}}>
                  
                     <div style={{height:'22px',width:'22px',backgroundColor:' rgb(167, 169, 172)'}}>
                     </div>
-                    <h6 className='ms-2'><b>Trophy Silver</b></h6>
+                    <h6 className='ms-2 cname'><b>Trophy Silver</b></h6>
                  
                 </div>
 
@@ -152,7 +155,7 @@ function Landingpage() {
                     </div>
                  
                 
-                    <h6 className='ms-3'><b>Matrix Black</b></h6>
+                    <h6 className='ms-3 cname'><b>Matrix Black</b></h6>
                  
                 </div>
 
@@ -163,7 +166,7 @@ function Landingpage() {
                     </div>
                  
                 
-                    <h6 className='ms-1'><b>Celestial Grey</b></h6>
+                    <h6 className='ms-1 cname'><b>Celestial Grey</b></h6>
                  
                 </div>
 
@@ -174,7 +177,7 @@ function Landingpage() {
                     </div>
                  
                 
-                    <h6 className='ms-4'><b>AquaGreen</b></h6>
+                    <h6 className='ms-4 cname'><b>AquaGreen</b></h6>
                  
                 </div>
 
@@ -187,7 +190,7 @@ function Landingpage() {
             {/*         <div class="hidden md:flex w-[24px] h-[24px]" style="background: radial-gradient(circle, transparent, rgba(33, 33, 33, 0.63)), repeating-linear-gradient(135deg, rgba(33, 33, 33, 0.63) 0px, rgba(33, 33, 33, 0.63) 2px, transparent 2px, transparent 10px, rgba(33, 33, 33, 0.63) 10px, rgba(33, 33, 33, 0.63) 11px, transparent 11px, transparent 21px), repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), linear-gradient(90deg, rgba(33, 33, 33, 0.63), rgba(33, 33, 33, 0.63)); border: 1px solid rgb(230, 232, 234);"></div> */}
                  
                 
-                    <h6 className='ms-3'><b>Carbon Dark</b></h6>
+                    <h6 className='ms-3 cname'><b>Carbon Dark</b></h6>
                  
                 </div>
 
@@ -198,16 +201,24 @@ function Landingpage() {
                     </div>
                  
                 
-                    <h6 className='ms-3'><b>Glacier Blue</b></h6>
+                    <h6 className='ms-3 cname'><b>Glacier Blue</b></h6>
                  
                 </div>
               </div>
             </div>
+            <h6 className='text-center ' /* style={{marginTop:'-60px'}} */><b className='border text-white bg-black' type='button' style={{padding:'20px 30px'}}>DISCOVER MORE</b></h6>
         </div>
       </div>  
 
        <div className='w-100 bg-white dnt2' style={{height:'100vh',position:'relative',zIndex:4}}>
-        
+        <h1 className='ms-md-5'><b>Casual Wear</b></h1>
+        <div className="row mt-5">
+          <div className="col-md-1"></div>
+          <div className="col-md-10 " style={{height:'420px',backgroundImage:'url("/apparelsection.webp")',backgroundSize:'cover',backgroundPosition:'center'}}>
+             
+          </div>
+          <div className="col-md-1"></div>
+        </div>
       </div>  
 
 
