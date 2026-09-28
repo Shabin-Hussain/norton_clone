@@ -16,6 +16,68 @@
 
 }
 
+.apparel{
+    height: 420px;
+    position: relative;
+    overflow: hidden;
+}
+
+.apparel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("/apparelsection.webp");
+    background-size: cover;
+    background-position: center;
+
+    transition: transform 1.8s ease;
+}
+
+.apparel:hover::before {
+    transform: scale(1.05);
+}
+
+.apparel1{
+    position: relative;
+    z-index: 1;
+}
+
+/* .bt{
+    width: 50px;
+    height: 50px;
+    background: gray;
+} */
+
+/* .history {
+    height: 250px;
+    background-color: black;
+    color: white;
+    padding: 30px 10%;
+    position: relative;
+}
+
+.history h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.buttons {
+    position: absolute;
+    right: 10%;
+    top: 30px;
+}
+
+.buttons button {
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    background-color: #222;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+ */
 @media(max-width:750px){
     .bk1{
     width:400px;

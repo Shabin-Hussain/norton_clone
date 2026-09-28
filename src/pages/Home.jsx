@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Header from '../components/Header'
+import Follow from '../components/Follow'
 
 
 function Home() {
@@ -10,7 +11,8 @@ function Home() {
 
   return (
     <>
-    <Header/> 
+  {/*   <Header/>  */}
+    <Follow/>
 
    
 

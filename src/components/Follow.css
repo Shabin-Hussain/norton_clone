@@ -1,0 +1,42 @@
+.follow-section {
+  background: #000;
+  padding: 50px 5%;
+  color: white;
+}
+
+.follow-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.follow-images {
+  display: flex;
+  gap: 16px;
+}
+
+.follow-images img {
+  width: 25%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Carousel arrows */
+
+.follow-section .carousel-control-prev,
+.follow-section .carousel-control-next {
+  width: 45px;
+  height: 45px;
+  background: #333;
+  top: -65px;
+  opacity: 1;
+}
+
+.follow-section .carousel-control-prev {
+  left: auto;
+  right: 60px;
+}
+
+.follow-section .carousel-control-next {
+  right: 0;
+}
