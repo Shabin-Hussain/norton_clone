@@ -18,3 +18,9 @@
 }
 }
 
+@media(max-width:550px){
+    .immg{
+        display: none;
+    }
+}
+

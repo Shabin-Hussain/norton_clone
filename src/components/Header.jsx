@@ -77,7 +77,7 @@ function Header() {
 
             <Navbar expand="lg" className="bg-black py-3">
                 <Container>
-                    <img src="public/app.png" alt="app" width={'22px'} style={{ position: 'relative', marginLeft: '-30px' }} />
+                    <img src="public/app.png" alt="app" width={'22px'} style={{ position: 'relative', marginLeft: '-30px' }} className='immg'/>
                     
                     <Navbar.Brand href="#home">
                         <img src="public/norton.png" alt="no image" width={'160px'} />

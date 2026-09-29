@@ -37,7 +37,7 @@ function Landingpage() {
 
       </div>
 
-      <div className='w-100 bg-white container-fluid' style={{ height: '350vh', position: 'relative', zIndex: 4 }}>
+      <div className='w-100 bg-white container-fluid ht' style={{ height: '350vh', position: 'relative', zIndex: 4 }}>
         <div className="row">
           <div className="col-md-6">
             <div className="row">
@@ -229,7 +229,7 @@ function Landingpage() {
 
 
 
-      <div className='w-100 bg-black pt-5 ' style={{ height: '290vh', position: 'relative', zIndex: 4 }}>
+      <div className='w-100 bg-black pt-5 ht1' style={{ height: '290vh', position: 'relative', zIndex: 4 }}>
 
 
         <div className="row">
@@ -279,46 +279,46 @@ function Landingpage() {
 
         <div className="row mt-5">
           <div className="col-md-2">
-            <img src="public/norton.png" alt="" width={'180px'} />
+            <img src="public/norton.png" alt="" width={'180px'} className='tt'/>
           </div>
           <div className="col-md-2">
-            <h5 className='text-secondary'><b>Models</b></h5>
-            <p>Manx R</p>
-            <p>Manx</p>
-            <p>Atlas</p>
-            <p>Atlas GT</p>
+            <h5 className='text-secondary tt'><b>Models</b></h5>
+            <p className='text-white tt'>Manx R</p>
+            <p className='text-white tt'>Manx</p>
+            <p className='text-white tt'>Atlas</p>
+            <p className='text-white tt'>Atlas GT</p>
           </div>
           <div className="col-md-2">
-            <h5 className='text-secondary'><b>Shop</b></h5>
-            <p>T-Shirts</p>
-            <p>Polo Shirts</p>
-            <p>Sweatshirts & Hoodies</p>
-            <p>Jackets</p>
-            <p>Gifts & Accessories</p>
-            <p>All Casual Wear</p>
+            <h5 className='text-secondary tt'><b>Shop</b></h5>
+            <p className='text-white tt'>T-Shirts</p>
+            <p className='text-white tt'>Polo Shirts</p>
+            <p className='text-white tt'>Sweatshirts & Hoodies</p>
+            <p className='text-white tt'>Jackets</p>
+            <p className='text-white tt'>Gifts & Accessories</p>
+            <p className='text-white tt'>All Casual Wear</p>
           </div>
           <div className="col-md-2">
-            <h5 className='text-secondary'><b>Company</b></h5>
-            <p>About Us</p>
-            <p>Careers</p>
-            <p>Media</p>
+            <h5 className='text-secondary tt'><b>Company</b></h5>
+            <p className='text-white tt'>About Us</p>
+            <p className='text-white tt'>Careers</p>
+            <p className='text-white tt'>Media</p>
 
           </div>
           <div className="col-md-2">
-            <h5 className='text-secondary'><b>Client Services</b></h5>
-            <p>Support</p>
-            <p>Enquiry</p>
-            <p>Dealer Opportunities</p>
+            <h5 className='text-secondary tt'><b>Client Services</b></h5>
+            <p className='text-white tt'>Support</p>
+            <p className='text-white tt'>Enquiry</p>
+            <p className='text-white tt'>Dealer Opportunities</p>
 
           </div>
           <div className="col-md-2">
-            <h5 className='text-secondary'><b>Policies</b></h5>
+            <h5 className='text-secondary tt'><b>Policies</b></h5>
 
-            <p>  Cookie Policy</p>
-            <p> Return & Refund Policy</p>
-            <p> Sitemap</p>
-            <p> Certification</p>
-            <p>Terms of Sale</p>
+            <p className='text-white tt'>  Cookie Policy</p>
+            <p className='text-white tt'> Return & Refund Policy</p>
+            <p className='text-white tt'> Sitemap</p>
+            <p className='text-white tt'> Certification</p>
+            <p className='text-white tt'>Terms of Sale</p>
           </div>
         </div>
 
@@ -336,7 +336,7 @@ function Landingpage() {
 
         </footer> */}
 
-        <div className="row mt-5">
+        <div className="row mt-5 text-white">
           <div className="col-md-3">
             <FontAwesomeIcon icon={faInstagram} size='2xl' />
             <FontAwesomeIcon icon={faFacebook} size='2xl' />
