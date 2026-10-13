@@ -20,7 +20,7 @@ function More() {
 
           <div className="col-md-6">
             <img
-              src="./public/image111.jpg"
+              src="/image111.jpg"
               className="d-block w-100"
               alt="Norton history"
             />
@@ -44,7 +44,7 @@ function More() {
 
           <div className="col-md-6">
             <img
-              src="./public/image112.jpg"
+              src="/image112.jpg"
               className="d-block w-100"
               alt="Norton history"
             />
@@ -68,7 +68,7 @@ function More() {
 
           <div className="col-md-6">
             <img
-              src="./public/image113.jpg"
+              src="/image113.jpg"
               className="d-block w-100"
               alt="Norton racing"
             />
