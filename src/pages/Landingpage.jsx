@@ -145,7 +145,7 @@ function Landingpage() {
               <div /* className='mb-5' */ style={{ marginTop: '-60px' }}> <Three60 /></div>
             </div>
             <div className="col-md-3 cname1">
-              <div className=" mt-2 mt-md-5 border d-inline-flex align-items-center cname2" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 mt-md-5 border d-inline-flex align-items-center cname2" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' rgb(167, 169, 172)' }}>
                 </div>
@@ -153,7 +153,7 @@ function Landingpage() {
 
               </div>
 
-              <div className=" mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' rgb(40,39,39)' }}>
 
@@ -164,7 +164,7 @@ function Landingpage() {
 
               </div>
 
-              <div className=" mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' rgb(70,71,71)' }}>
 
@@ -175,7 +175,7 @@ function Landingpage() {
 
               </div>
 
-              <div className=" mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' rgb(89,155,167)' }}>
 
@@ -186,27 +186,27 @@ function Landingpage() {
 
               </div>
 
-              <div className=" mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' #202124' }}>
 
                 </div>
 
-                {/*         <div class="hidden md:flex w-[24px] h-[24px]" style="background: radial-gradient(circle, transparent, rgba(33, 33, 33, 0.63)), repeating-linear-gradient(135deg, rgba(33, 33, 33, 0.63) 0px, rgba(33, 33, 33, 0.63) 2px, transparent 2px, transparent 10px, rgba(33, 33, 33, 0.63) 10px, rgba(33, 33, 33, 0.63) 11px, transparent 11px, transparent 21px), repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), linear-gradient(90deg, rgba(33, 33, 33, 0.63), rgba(33, 33, 33, 0.63)); border: 1px solid rgb(230, 232, 234);"></div> */}
+               
 
 
                 <h6 className='ms-3 cname'><b>Carbon Dark</b></h6>
 
               </div>
 
-              <div className=" mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
+              <div className="ms-2 mt-2 border d-inline-flex align-items-center" style={{ padding: '10px 5px' }}>
 
                 <div style={{ height: '22px', width: '22px', backgroundColor: ' rgb(138,162,193)' }}>
 
                 </div>
 
 
-                <h6 className='ms-3 cname'><b>Glacier Blue</b></h6>
+                <h6 className=' ms-3 cname'><b>Glacier Blue</b></h6>
 
               </div>
             </div>
@@ -229,7 +229,7 @@ function Landingpage() {
 
 
 
-      <div className='w-100 bg-black pt-5 ht1' style={{ height: '290vh', position: 'relative', zIndex: 4 }}>
+      <div className='w-100 bg-black pt-5 ht1' style={{ minHeight: '290vh', position: 'relative', zIndex: 4 }}>
 
 
         <div className="row">
@@ -260,8 +260,7 @@ function Landingpage() {
 
           </div>
           <div className="col-md-1 ">
-            {/*   <button className='btn btn-secondary rounded-0 px-4 py-2 me-3' ><span style={{fontSize:'25px'}}>‹</span></button>
-         <button className='btn btn-secondary rounded-0 px-4 py-2' ><span style={{fontSize:'25px'}}>›</span></button> */}
+           
           </div>
         </div>
 
@@ -324,20 +323,10 @@ function Landingpage() {
 
 
 
-    {/*     <footer className='mt-5 d-flex '>
-            <FontAwesomeIcon icon={faInstagram} size='2xl' />
-            <FontAwesomeIcon icon={faFacebook} size='2xl' />
-            <FontAwesomeIcon icon={faSquareXTwitter} size='2xl' />
-            <FontAwesomeIcon icon={faLinkedin} size='2xl'  />
-            <FontAwesomeIcon icon={faYoutube} size='2xl'  />
-
-            <h6 >PRIVACY POLICY</h6>
-            <h6 >WEBSITE TERMS OF SERVICE</h6>
-
-        </footer> */}
+    
 
         <div className="row mt-5 text-white">
-          <div className="col-md-3">
+          <div className="col-12 text-center col-md-3">
             <FontAwesomeIcon icon={faInstagram} size='2xl' />
             <FontAwesomeIcon icon={faFacebook} size='2xl' />
             <FontAwesomeIcon icon={faSquareXTwitter} size='2xl' />
@@ -347,10 +336,10 @@ function Landingpage() {
           <div className="col-md-5">
              
           </div>
-          <div className="col-md-2">  
+          <div className="col-12 text-center col-md-2">  
             <p style={{fontSize:'12px'}}>PRIVACY POLICY</p>
           </div>
-          <div className="col-md-2">  
+          <div className="col-12 text-center col-md-2">  
             <p  style={{fontSize:'12px'}}>WEBSITE TERMS OF SERVICE</p>
             </div>
         </div>

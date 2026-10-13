@@ -1,17 +1,11 @@
 import React from 'react'
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import { faCartShopping, faChevronDown, faHeadphones } from '@fortawesome/free-solid-svg-icons';
+
+import {  faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import './Header.css'
 
 
@@ -19,61 +13,7 @@ import './Header.css'
 function Header() {
     return (
         <>
-            {/*  <Box sx={{ flexGrow: 1 }} >
-                <AppBar position="static" sx={{ backgroundColor: "black" }} style={{ height: '70px' }}>
-                    <Toolbar>
-                        <IconButton
-                            size="large"
-                            edge="start"
-                            color="inherit"
-                            aria-label="menu"
-                            sx={{ mr: 2 }}
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        <img src="public/norton.png" alt="norton image" width={"160px"} style={{ position: "relative", top: "5px" }} />
-                        <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px' }}>
-
-                            MODELS <FontAwesomeIcon
-                                icon={faChevronDown}
-                                style={{
-                                    fontSize: "8px",
-                                    marginLeft: "5px",
-                                    position: "relative",
-                                    top: "-2px"
-
-                                }}
-                            />
-
-                        </Typography>
-                        <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px' }}>
-                            CASUAL WEAR
-                        </Typography>
-
-                        <Box sx={{ flexGrow: 1 }} />
-
-                     
-
-
-                        <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px',border:'1px solid white',padding:'10px',paddingX:'20px' }}>
-                            ENQUIRY
-                        </Typography>
-                        <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px',border:'1px solid white',padding:'10px',paddingX:'20px',backgroundColor:'white',color:'black' }}>
-                            WAITLIST
-                        </Typography>
-                           <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px' }}>
-                            <FontAwesomeIcon icon={faCartShopping} />
-                        </Typography>
-                           <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px' }}>
-                             <FontAwesomeIcon icon={faHeadphones} />
-                        </Typography>
-                         <Typography component="div" sx={{ mr: 4, fontSize: "12px", fontWeight: 'bold', marginTop: '10px' }}>
-                                India
-                        </Typography>
-                        
-                    </Toolbar>
-                </AppBar>
-            </Box> */}
+          
 
             <Navbar expand="lg" className="bg-black py-3">
                 <Container>
@@ -83,7 +23,7 @@ function Header() {
                         <img src="public/norton.png" alt="no image" width={'160px'} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse id="basic-navbar-nav" >
                         <Nav className="me-auto">
                             <Nav.Link href="#home" className='text-white' style={{ fontWeight: 'bold', fontSize: '12px' }}> MODELS <FontAwesomeIcon icon={faChevronDown} />
                             </Nav.Link>
