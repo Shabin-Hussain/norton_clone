@@ -26,7 +26,7 @@ function Landingpage() {
 
 
 
-        <video src="public/video.mp4" style={{ top: 0, left: 0, height: '100%', width: '100%', objectFit: 'cover', position: 'fixed', zIndex: 1 }} autoPlay muted loop></video>
+        <video src="/video.mp4" style={{ top: 0, left: 0, height: '100%', width: '100%', objectFit: 'cover', position: 'fixed', zIndex: 1 }} autoPlay muted loop></video>
 
         <h1 style={{ position: 'fixed', zIndex: 2, textAlign: 'center', left: '0px', width: '100%', top: '70%', color: 'white', fontSize: '50px' }}>RETURN OF A LEGEND</h1>
         <h1 style={{ position: 'fixed', zIndex: 2, top: '85%', left: '0px', textAlign: 'center', width: '100%' }}><span style={{ fontSize: '12px', fontWeight: 'bold', border: '1px solid white', padding: '20px 50px', color: 'black', backgroundColor: 'white' }}>DISCOVER MORE</span></h1>
@@ -71,7 +71,7 @@ function Landingpage() {
           <div className="col-md-10">
             <h1 className='text-center' ><b style={{ fontSize: '50px' }}>First Edition</b></h1>
             <p className='text-center'>Introducing the exclusive First Edition models of the Manx R and Manx. Featuring full carbon fibre bodywork, precision- <br />machined billet finishes, a titanium Akrapovič exhaust system, plus a suite of unique, bespoke features.</p>
-            <img className='bk1' src="public/first.webp" alt="image of bike" />
+            <img className='bk1' src="/first.webp" alt="image of bike" />
 
 
             <p className='text-center' ><span type='button' className='border bg-black text-white' style={{ padding: '15px 25px' }}>WAITLIST</span></p>
@@ -87,7 +87,7 @@ function Landingpage() {
             <div className="col-3">
               <div className="row">
                 <div className="col-md-6 ">
-                  <img src="public/home-360-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
+                  <img src="/home-360-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
                 </div>
                 <div className="col-md-6">
                   <h5 className='mt-md-3'>Manx R</h5>
@@ -109,7 +109,7 @@ function Landingpage() {
             <div className="col-3">
               <div className="row">
                 <div className="col-md-6 ">
-                  <img src="public/atlas-360-view-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
+                  <img src="/atlas-360-view-thumbnail-webp.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
                 </div>
                 <div className="col-md-6">
                   <h5 className='mt-md-3'>Atlas</h5>
@@ -120,7 +120,7 @@ function Landingpage() {
             <div className="col-3">
               <div className="row">
                 <div className="col-md-6 ">
-                  <img src="public/pdp-hero-images-without-background-j106-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
+                  <img src="/pdp-hero-images-without-background-j106-desktop-2314-x-2314-px.webp" alt="Manx R" width={'90px'} className='ms-md-5' />
                 </div>
                 <div className="col-md-6">
                   <h5 className='mt-md-3'>Atlas GT</h5>
@@ -278,7 +278,7 @@ function Landingpage() {
 
         <div className="row mt-5">
           <div className="col-md-2">
-            <img src="public/norton.png" alt="" width={'180px'} className='tt'/>
+            <img src="/norton.png" alt="" width={'180px'} className='tt'/>
           </div>
           <div className="col-md-2">
             <h5 className='text-secondary tt'><b>Models</b></h5>

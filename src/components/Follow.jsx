@@ -17,22 +17,22 @@ function Follow() {
           <div className="follow-images">
 
             <div style={{ position: 'relative' }}>
-              <img src="public/11.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/11.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/12.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/12.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/13.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/13.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/14.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/14.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
@@ -42,22 +42,22 @@ function Follow() {
         <Carousel.Item>
           <div className="follow-images">
                  <div style={{ position: 'relative' }}>
-              <img src="public/11.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/11.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/12.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/12.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/13.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/13.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
 
             <div style={{ position: 'relative' }}>
-              <img src="public/14.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
+              <img src="/14.webp" alt="" className="w-100" style={{ display: 'block', width: '100%' }} />
               <h6 className="ms-md-4" style={{ position: 'absolute', margin: '0', op: '20px', bottom: '20px' }}>Norton Motorcycles</h6>
             </div>
            

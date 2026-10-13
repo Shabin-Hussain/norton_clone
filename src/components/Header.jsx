@@ -17,10 +17,10 @@ function Header() {
 
             <Navbar expand="lg" className="bg-black py-3">
                 <Container>
-                    <img src="public/app.png" alt="app" width={'22px'} style={{ position: 'relative', marginLeft: '-30px' }} className='immg'/>
+                    <img src="/app.png" alt="app" width={'22px'} style={{ position: 'relative', marginLeft: '-30px' }} className='immg'/>
                     
                     <Navbar.Brand href="#home">
-                        <img src="public/norton.png" alt="no image" width={'160px'} />
+                        <img src="/norton.png" alt="no image" width={'160px'} />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" >
@@ -43,7 +43,7 @@ function Header() {
                              <svg class="support-icon"  className=' icn1'      width="70px"  height="25px" fill="none"   xmlns="http://www.w3.org/2000/svg"  ><path d="M4 15C4 14.4696 4.21071 13.9609 4.58579 13.5858C4.96086 13.2107 5.46957 13 6 13H7C7.53043 13 8.03914 13.2107 8.41421 13.5858C8.78929 13.9609 9 14.4696 9 15V18C9 18.5304 8.78929 19.0391 8.41421 19.4142C8.03914 19.7893 7.53043 20 7 20H6C5.46957 20 4.96086 19.7893 4.58579 19.4142C4.21071 19.0391 4 18.5304 4 18V15ZM15 15C15 14.4696 15.2107 13.9609 15.5858 13.5858C15.9609 13.2107 16.4696 13 17 13H18C18.5304 13 19.0391 13.2107 19.4142 13.5858C19.7893 13.9609 20 14.4696 20 15V18C20 18.5304 19.7893 19.0391 19.4142 19.4142C19.0391 19.7893 18.5304 20 18 20H17C16.4696 20 15.9609 19.7893 15.5858 19.4142C15.2107 19.0391 15 18.5304 15 18V15Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 15V12C4 9.87827 4.84285 7.84344 6.34315 6.34315C7.84344 4.84285 9.87827 4 12 4C14.1217 4 16.1566 4.84285 17.6569 6.34315C19.1571 7.84344 20 9.87827 20 12V15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                              </Nav.Link>
                               <Nav.Link href="#link" className='icn2'   >
-                                <img src="public/in.png" alt="" /> <span className='text-white' style={{ fontWeight: 'bold', fontSize: '12px' }}>INDIA</span>
+                                <img src="/in.png" alt="" /> <span className='text-white' style={{ fontWeight: 'bold', fontSize: '12px' }}>INDIA</span>
                               </Nav.Link>
                             
                         <Nav>
